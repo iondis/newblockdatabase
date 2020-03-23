@@ -8,7 +8,7 @@
 // To learn more about the benefits of this model, read https://goo.gl/KwvDNy.
 // This link also includes instructions on opting out of this behavior.
 
-const is167.172.214.46 = Boolean(
+const isLocalhost = Boolean(
   window.location.hostname === '167.172.214.46' ||
     // [::1] is the IPv6 167.172.214.46 address.
     window.location.hostname === '[::1]' ||
