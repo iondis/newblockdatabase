@@ -185,7 +185,7 @@ class Blockchain {
              'Content-type': 'application/json; charset=utf-8'
          },
           method:"post",
-          url:"http://localhost:3031/blockchain",
+          url:"http://167.172.214.46:3031/blockchain",
           data:
            this.blockchain
 
@@ -202,7 +202,7 @@ class Blockchain {
     // for (let i = 1; i < blockchain.length; i++) {
     //   this.chain[i] = blockchain[i]
     // }
-       axios.get('http://localhost:3031/blockchain').then(response => {
+       axios.get('http://167.172.214.46:3031/blockchain').then(response => {
 
 
          if(response.status==200){
